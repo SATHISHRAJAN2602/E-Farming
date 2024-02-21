@@ -1,0 +1,63 @@
+body{
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.marquee{
+    background-color: rgb(14, 243, 41);
+}
+.div_f1 button{
+    position: absolute;
+    right: 10px;
+    padding:11px;
+    border: 2px solid rgb(14, 243, 41);
+    background-color: black;
+    color: aliceblue;
+    font-size: medium;
+}
+.div_f1 button:hover{
+    background-color: chocolate;
+}
+.div_f2{
+    color: rgb(1, 19, 19);
+}
+.div_f2 h2{
+    color:rgb(32, 46, 235);
+}
+.container {
+    border: 2px solid wheat;
+    background-color: rgb(14, 243, 41);
+ 
+    text-align: center;
+    font-size: larger;
+}
+input[type=text], input[type=password],input[type=email]
+{
+ width: 30%;   
+ padding:10px;
+ margin: 8px;
+ border: 2px solid rgb(1, 19, 16);
+}
+.container label{
+    font-size: larger;
+    color: rgb(16, 16, 16);
+}
+.container button{
+    font-size: large;
+    background-color: rgb(190, 18, 18);
+    color: aliceblue;
+}
+.container button:hover{
+    background-color:rgb(255, 245, 47);
+}
+.container1 button{
+    background-color: rgb(223, 170, 11);
+    font-size: larger;
+    margin: 21px;
+    border: 2px solid black;
+}
+
+.container1 a{
+    text-decoration: none;
+    color: aliceblue;
+}

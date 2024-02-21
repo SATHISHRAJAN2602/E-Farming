@@ -1,0 +1,103 @@
+
+    
+    *{margin:0;
+
+        padding:0;
+        
+        box-sizing: border-box;
+        
+        font-family:'poppins',sans-serif;
+        
+        }
+        
+        body{
+        
+        display:flex;
+        
+        height:100vh;
+        
+        justify-content:center;
+        
+        align-items:center;
+        
+        padding:10px;
+        
+        background-image:url("forgot.png");
+        
+        }
+        
+        .container form.user-details{
+        
+        display:flex;
+        
+        flex-wrap:wrap-reverse;
+        
+        }
+        
+        .container{
+        
+        max-width:700px;
+        
+        width:100%;
+        
+        background:#fff;
+        
+        padding:25px 30px;
+        
+        border-radius:5px;
+        
+        }
+        
+        .container.title{
+        
+        font-size:25px;
+        
+        font-weight:500;
+        
+        position:relative;
+        
+        }
+        
+        .container.title::before{
+        
+        content:'';
+        
+        position:absolute;
+        
+        height:3px;
+        
+        weight:30px;
+        
+        background:#9b59b6;
+        
+        }
+        
+        
+        .loginbox{
+        
+        width:30%;
+        
+        height:auto;
+        
+        background:#0009;
+        
+        color:rgb(37, 35, 35);
+        
+        top:50%;
+        
+        left:50%;
+        
+        position:absolute;
+        
+        transform:translate(-50%,-50%);
+        
+        padding:60px 30px;
+        
+        border-radius:20px;
+        
+        }
+        
+        .loginbox h1{
+        
+        margin:0;
+        }

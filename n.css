@@ -1,0 +1,46 @@
+style file
+.navbar
+{ overflow:hidden;
+  background-color:aqua;
+}
+.navbar a
+{ float:left;
+  font-size:16px;
+  color:black;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+}
+.dropdown .mybutton
+{font-size:16px;
+ border:none;
+ outline:none;
+ color:black;
+ padding:14px 16px;
+ background-color:inherit;
+ font-family:inherit;
+ margin:0;
+}
+.dropdown-content
+{display:none;
+ position:absolute;
+ overflow:hidden;
+ background-color:white;
+ width:120px;
+}
+.dropdown-content a
+{ color:black;
+  padding:12px 16px;
+  text-decoration:none;
+  text-align:left;
+}
+.dropdown:hover .dropdown-content
+{ display:block;
+}
+.dropdown
+{ float:left;
+  overflow:hiddden;
+}
+.dropdown-content a:hover
+{ background-color:pink;
+}

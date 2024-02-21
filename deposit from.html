@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet"  href="style4.css">
+<script>
+  
+window.addEventListener( "load", start, false );
+function start()
+{
+document.getElementById("fname").addEventListener("focus",focusone, false );
+document.getElementById("fname").addEventListener("blur", blurone, false );
+document.getElementById("roll").addEventListener("focus",focustwo, false );
+document.getElementById("roll").addEventListener("blur", blurone, false );
+document.getElementById("fname").addEventListener("focus",focusthree, false );
+document.getElementById("fname").addEventListener("blur", blurone, false );
+document.getElementById("myform").addEventListener("submit",subfun, false );
+document.getElementById("myform").addEventListener("reset",resetfun, false );
+}
+
+function focusone() 
+{document.getElementById("help").innerHTML="Please! Enter your Name:" ;
+}
+function focustwo() 
+{document.getElementById("help").innerHTML="Please! Enter your Account number provided in cadbury bank :" ;
+}
+function blurone() 
+{ document.getElementById("help").innerHTML="" ;
+}
+function subfun() 
+{ window.alert("Are you Sure to submit");
+  window.alert("Thank you");
+}
+function resetfun() 
+{window.alert("Are you Sure to reset")}
+</script>
+
+</head>
+
+
+<body>
+  <center>
+<h1>CASH DEPOSIT FORM:</h1>
+<form id="myform">
+Date:          <input type="date"><br><br>
+ Name:         <input type="text" id="fname"><br><br>
+Acoount number:<input type="text" id="roll"><br><br>
+<h1>Cash drawn</h1>
+
+<table style="border: 1px solid black;">
+
+  <tr>
+    <th>Cash note</th>
+    <th>Amount</th>
+  </tr>
+  <tr>
+    <td>     *1000</td>
+    <td>___________</td>
+  </tr>
+  <tr>
+    <td>      *500</td>
+    <td>__________</td>
+  </tr>
+  <tr>
+    <td>      *100</td>
+    <td>__________</td>
+  </tr>
+  <tr>
+    <td>      *50</td>
+    <td>__________</td>
+  </tr>
+  <tr>
+    <td>      *10</td>
+    <td>__________</td>
+  </tr>
+</table>
+<br><br>
+
+Rupees in words: <input type="text" id="fname"><br><br>
+<input type="submit"  id="sub">
+<input type="reset"  id="reset">
+</form>
+<p id="help" style="border:solid; height:70pt;"></p>
+</center>
+</body>
+</html>
